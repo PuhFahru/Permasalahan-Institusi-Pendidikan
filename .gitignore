@@ -19,7 +19,3 @@ Thumbs.db
 
 # Jupyter
 .ipynb_checkpoints/
-
-# Model files (large binary files)
-model/*.joblib
-model/joblib
