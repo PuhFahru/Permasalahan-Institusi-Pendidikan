@@ -178,8 +178,7 @@ Atau untuk deployment ke Streamlit Community Cloud:
 4. Share link deployment
 
 ### Link Prototype Streamlit
-
-_(Akan diisi setelah deployment ke Streamlit Community Cloud)_
+https://permasalahan-institusi-pendidikan.streamlit.app/
 
 ---
 
