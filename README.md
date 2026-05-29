@@ -33,11 +33,9 @@ pip install -r requirements.txt
 
 Dashboard interaktif telah dibuat menggunakan **Google Looker Studio** untuk memvisualisasikan performa siswa dan faktor-faktor yang mempengaruhi dropout.
 
-### Link Dashboar
+[Link Dashboard](https://datastudio.google.com/reporting/96d3a9c6-c544-405b-b29a-a9acc37ef337)
 
-https://datastudio.google.com/reporting/96d3a9c6-c544-405b-b29a-a9acc37ef337
-
-### Fitur Dashboard:
+- Fitur Dashboard:
 
 1. **Distribusi Status** - Pie chart Dropout vs Graduate vs Enrolled
 2. **Analisis Demografis** - Status berdasarkan gender dan kelompok usia
@@ -47,26 +45,24 @@ https://datastudio.google.com/reporting/96d3a9c6-c544-405b-b29a-a9acc37ef337
 
 ## Menjalankan Sistem Machine Learning
 
-### Prasyarat
+1. Prasyarat
 
 - Python 3.8+
 - Library yang tertera di `requirements.txt`
 
-### Instalasi
+2. Instalasi
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Menjalankan Prototype Streamlit
+3. Menjalankan Prototype Streamlit
 
 ```bash
 streamlit run app.py
 ```
 
-### Link Prototype:
-
-https://permasalahan-institusi-pendidikan.streamlit.app/
+[Link Prototype](https://permasalahan-institusi-pendidikan.streamlit.app/)
 
 ## Conclusion
 
