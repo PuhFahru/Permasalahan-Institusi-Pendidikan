@@ -21,10 +21,9 @@ Tingginya angka dropout menjadi masalah besar yang dapat mempengaruhi reputasi i
 
 ### Persiapan
 
-Sumber data: Dataset Jaya Jaya Institut (`data.csv`) dengan 4.424 records dan 36 fitur
+**Sumber Data:** [data.csv](https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/data.csv)
 
 Setup environment:
-
 ```
 pip install -r requirements.txt
 ```
@@ -33,9 +32,11 @@ pip install -r requirements.txt
 
 Dashboard interaktif telah dibuat menggunakan **Google Looker Studio** untuk memvisualisasikan performa siswa dan faktor-faktor yang mempengaruhi dropout.
 
-[Link Dashboard](https://datastudio.google.com/reporting/96d3a9c6-c544-405b-b29a-a9acc37ef337)
+### Link Dashboard
 
-- Fitur Dashboard:
+https://datastudio.google.com/reporting/96d3a9c6-c544-405b-b29a-a9acc37ef337
+
+### Fitur Dashboard:
 
 1. **Distribusi Status** - Pie chart Dropout vs Graduate vs Enrolled
 2. **Analisis Demografis** - Status berdasarkan gender dan kelompok usia
@@ -45,24 +46,24 @@ Dashboard interaktif telah dibuat menggunakan **Google Looker Studio** untuk mem
 
 ## Menjalankan Sistem Machine Learning
 
-1. Prasyarat
+### Prasyarat
 
 - Python 3.8+
 - Library yang tertera di `requirements.txt`
 
-2. Instalasi
-
+### Instalasi
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Menjalankan Prototype Streamlit
-
+### Menjalankan Prototype Streamlit
 ```bash
 streamlit run app.py
 ```
 
-[Link Prototype](https://permasalahan-institusi-pendidikan.streamlit.app/)
+### Link Prototype:
+
+https://permasalahan-institusi-pendidikan.streamlit.app/
 
 ## Conclusion
 
@@ -75,8 +76,9 @@ Berdasarkan analisis data dan model machine learning yang telah dibangun, dapat 
    - Status tidak menerima beasiswa
 
 2. **Model Prediktif:**
-   - Random Forest Classifier mampu mencapai akurasi ~77%
-   - Fitur akademik (nilai, SKS disetujui) adalah prediktor terkuat
+   - Random Forest Classifier mampu mencapai akurasi **91.74%**
+   - Precision: **92.11%**, Recall: **86.27%**, F1 Score: **89.09%**
+   - Fitur akademik (nilai semester 2, SKS disetujui) adalah prediktor terkuat
 
 3. **Dashboard:**
    - Dashboard efektif untuk monitoring performa siswa
